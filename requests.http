@@ -1,8 +1,28 @@
+#######################
+# Surveys
+
+### get all surveys for user
+GET http://localhost:8000/api/survey
+Content-Type: application/json
+
+#######################
+# User
+
+### login
+POST http://localhost:8000/api/login
+Content-Type: application/json
+
+{
+	"email": "testexample3@dilino.sk",
+	"password": "testpassword3"
+}
+
+### register
 POST http://localhost:8000/api/register
 Content-Type: application/json
 
 {
-	"name": "testname3",
-	"email": "testexample3@dilino.sk",
-	"password": "testpassword3"
+	"name": "testname4",
+	"email": "testexample4@dilino.sk",
+	"password": "testpassword4"
 }
